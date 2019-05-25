@@ -75,7 +75,7 @@ public class Javacode05192{
 		System.out.printf(sum);
 	}
 }
-public class Javacode05192{
+public class Javacode0520{
 	public static void main(String[] args){
 	B b=new B(1,2,3);
 	b.print();
