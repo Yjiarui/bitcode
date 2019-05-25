@@ -1,4 +1,4 @@
-public class Course05191{
+public class Java05191{
 public static int binarySearch(int[] array,int key)//二分查找 index指下标
   {
 	int left=0;
