@@ -1,4 +1,4 @@
-public class Course0519{
+public class Java0519{
 	public static int max(int[] array){
 		int maxValue=0;
 		//for(int item:array)
