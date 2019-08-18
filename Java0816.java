@@ -1,4 +1,5 @@
 //合并两个有序链表
+
 class ListNode{
     public int val;
 	public ListNode next = null;
@@ -21,16 +22,22 @@ public class Java0816{
 		while(c1 != null && c2 != null){
 			//取值比较小的结点
 			if(c1.val <= c2.val){
+				//把c1尾插到新链表
+				//如果链表中没有结点，更新链表的第一个结点
+				//否则，找到链表的最后一个结点，让它的next = 要插入的结点
 				if(rhead == null){
 					rhead = c1;
 					rlast = rhead;
 				}else{
 					rlast.next = c1;
+					//再更新下链表的最后一个结点
 					rlast = rlast.next;
 				}
+				//让c1指向原来的下一个结点
 				c1 = c1.next;
 			}else{
 				if(rhead == null){
+				//把c2尾插到新链表
 					rhead = c2;
 					rlast = rhead;
 				}else{

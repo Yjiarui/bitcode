@@ -1,4 +1,6 @@
 //设定x 将小于x的数排在大于或等于x之前
+
+
 class ListNode{
 	int val;
 	ListNode next;
