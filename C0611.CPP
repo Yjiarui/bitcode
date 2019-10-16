@@ -26,7 +26,7 @@ void reserve(int data[], int size)
 {
 	int i, j, temp;
 	for (i = 0, j = size - 1; i < j; i++, j--)
-	{
+	{      
 		temp = data[i];
 		data[i] = data[j];
 		data[j] = temp;
