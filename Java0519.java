@@ -9,6 +9,7 @@ public class Java0519{
 		}
 		return maxValue;
 	} 
+	
 	public static int indexOf(int[] array,int key){
 		for(int i=0;i<array.length;i++){
 			if(key==array[i]){
@@ -17,6 +18,7 @@ public class Java0519{
 		}
 		return -1;
 	}
+	
 	public static double average(int[] scores){
 		int maxScore=scores[0];
 		int minScore=scores[0];
@@ -35,7 +37,8 @@ public class Java0519{
 		}
 		return average;
 	}
-public static void main(String[] args){
+      
+	public static void main(String[] args){
 	int[] array={1,2,3,4,5,6,7};
 	
 	int maxValue=max(array);
